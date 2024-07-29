@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@700&display=swap');
 
 body{
@@ -32,12 +31,14 @@ nav{
     column-gap: 10%;
     margin-right:18px;
     align-items:center
+    
+    
         
 }
 
 .botones_opciones li a{
     display: block;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.861);
     color: #dddddd;
     padding: 10px 20px;
     text-decoration: none;
@@ -85,7 +86,7 @@ justify-content: center;
 .resultados h3{
   display: block;
   text-align: center;
-  font-size: larger;
+  font-size: large;
 }
 
 .tarjeta_hotel{

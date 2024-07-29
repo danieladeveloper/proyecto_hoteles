@@ -102,6 +102,7 @@ function buscar(){
                                 <div class="hotel_precio_semana_recompensa">Precio recompensa:${hotel_seleccionado.tarifa_semana_rec} USD</div>
                                 <div class="hotel_precio_finsemana_regular">Precio regular fin de semana:${hotel_seleccionado.tarifa_finsemana_reg} USD</div>
                                 <div class="hotel_precio_finsemana_recompensa">Precio recompensa fin de semana:${hotel_seleccionado.tarifa_finsemana_rec} USD</div>
+                                <button onclick="reservar" type="button" id="boton_reservar" name="boton_reservar">Reservar</button>
                     </div>
                     `;
                     
@@ -142,6 +143,7 @@ function imprimir_todos_hoteles(){
                         <div class="hotel_precio_semana_recompensa">Precio tarifa recompensa:${hotel_item.tarifa_semana_rec} USD</div>
                         <div class="hotel_precio_finsemana_regular">Precio tarifa regular fin de semana:${hotel_item.tarifa_finsemana_reg} USD</div>
                         <div class="hotel_precio_finsemana_recompensa">Precio tarifa recompensa fin de semana:${hotel_item.tarifa_finsemana_rec} USD</div>
+                        
             </div>
             `;
             document.getElementById("resultados").innerHTML=tarjeta_html;
@@ -164,4 +166,3 @@ function calificar_estrellas(calificacion){
 
     return estrellas;
 }
-
