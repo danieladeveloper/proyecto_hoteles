@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">  
+<head>    
+    <title>Miamisort</title>    
+    <meta charset="UTF-8">
+    <meta name="title" content="Miamisort">
+    <meta name="description" content="Cadena de hoteles">    
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        
+    </style> 
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>  
+    <script type="text/javascript">
+    </script> 
+</head>  
+<body> 
+    <div class="header">
+        <div>   
+            <img class="logo" src="img/logo_hotel.png" alt="Miamisorts"> <span>Miami Resorts</span>
+        </div> 
+        <div>   
+            <nav>
+                <ul class="botones_opciones">
+                    <li><a href=".">Inicio</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+        <section>      
+        <article>
+            <div class="controles">
+                <div>
+                    <p class="p_control_cliente">
+                    Check para tarifas programa recompensa
+                    <input type="checkbox" id="control_cliente" name="control_cliente">
+                    </p>
+                </div>
+                <div>   
+                    <label for="control_fecha1">Fecha 1</label><br>
+                    <input type="date" class="control_fecha"> 
+                </div>
+                <div>
+                    <label for="control_fecha1">Fecha 2</label><br>
+                    <input type="date" class="control_fecha"> 
+                </div>
+                <div>
+                    <label for="control_fecha1">Fecha 3</label><br>
+                    <input type="date" class="control_fecha"> 
+                </div>
+                <div>
+                    <button onclick="buscar()" type="button" id="boton_buscar" name="boton_buscar">Buscar</button>
+                </div>
+            </div>
+            <div id="resultados" class="resultados">
+       
+            </div>
+        </article>    
+    </section>
+    <footer>
+        <div class="copyright">
+            <p>&copy 2024 - Miamisorts</p>
+          </div>
+          <div class="social">
+            <a href="#" class="support">Contáctanos</a>
+            <a href="#" class="face">facebook</a>
+            <a href="#" class="tweet">X</a>
+            <a href="#" class="linked">LinkedIn</a>
+          </div>
+    </footer>
+</body>  
+</html>
+
